@@ -1,0 +1,2006 @@
+[
+  {
+    "description": "  As an admin user\n  I want to manage customers\n  So that I can maintain customer database and manage their accounts",
+    "elements": [
+      {
+        "description": "",
+        "id": "customer-management---support-ticket-desk;view-customers-list",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "View customers list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 297379699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837982899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 499679700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Customers page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:646"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2381080100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the customers page should be loaded",
+            "match": {
+              "location": "steps\\stepDefinitions.js:656"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27813000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the customers table should be visible",
+            "match": {
+              "location": "steps\\stepDefinitions.js:667"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28827999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140308600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@critical",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-management---support-ticket-desk;admin-can-see-add-customer-button",
+        "keyword": "Scenario",
+        "line": 139,
+        "name": "Admin can see Add Customer button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 346489499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 942035299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450402299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Customers page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:646"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1866400700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 140,
+            "name": "the Add Customer button should be visible",
+            "match": {
+              "location": "steps\\stepDefinitions.js:837"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5971300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 103604099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 138
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-management---support-ticket-desk;create-a-new-customer",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Create a new customer",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 178608899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 796533400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417391800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Customers page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:646"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1818581099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I click Add Customer button",
+            "match": {
+              "location": "steps\\stepDefinitions.js:705"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2045737499
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Name",
+                      "Test Customer"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Email",
+                      "test@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Company",
+                      "Test Company"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "SLA",
+                      "Gold"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Status",
+                      "Active"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I create a customer with:",
+            "match": {
+              "location": "steps\\stepDefinitions.js:721"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5797265699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "a success message should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:314"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6038500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78175699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 57
+          },
+          {
+            "name": "@critical",
+            "line": 57
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-management---support-ticket-desk;view-customer-details",
+        "keyword": "Scenario",
+        "line": 143,
+        "name": "View customer details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 234975800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 873222999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425808699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Customers page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:646"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1287770299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 144,
+            "name": "I view the first customer",
+            "match": {
+              "location": "steps\\stepDefinitions.js:877"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2033670299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 145,
+            "name": "the customer detail page should be loaded",
+            "match": {
+              "location": "steps\\stepDefinitions.js:635"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1861599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 146,
+            "name": "customer name should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:884"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5582999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 147,
+            "name": "customer email should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:889"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5581799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 148,
+            "name": "associated tickets count should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:894"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4222300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72739499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 142
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "customer-management---support-ticket-desk",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Customer Management - Support Ticket Desk",
+    "tags": [],
+    "uri": "features\\05_customer_management.feature"
+  },
+  {
+    "description": "  As a logged in user\n  I want to see the dashboard with statistics and recent tickets\n  So that I can quickly understand the system status",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard---support-ticket-desk;dashboard-displays-all-statistics-cards",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Dashboard displays all statistics cards",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 450967400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 945599599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469397300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the dashboard should be loaded",
+            "match": {
+              "location": "steps\\stepDefinitions.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20415500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see Open Tickets card",
+            "match": {
+              "location": "steps\\stepDefinitions.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41380500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see Assigned to Me card",
+            "match": {
+              "location": "steps\\stepDefinitions.js:171"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15241899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I should see Total Tickets card",
+            "match": {
+              "location": "steps\\stepDefinitions.js:180"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10879100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I should see Customers card",
+            "match": {
+              "location": "steps\\stepDefinitions.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39621599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150888800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 10
+          },
+          {
+            "name": "@critical",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard---support-ticket-desk;navigate-using-dashboard-navigation-menu",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Navigate using dashboard navigation menu",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243663799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 911408299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 426346900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the dashboard should be loaded",
+            "match": {
+              "location": "steps\\stepDefinitions.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34373999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I navigate to Tickets from dashboard",
+            "match": {
+              "location": "steps\\stepDefinitions.js:228"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 521283199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should be on the Tickets page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:222"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7349499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 160340299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard---support-ticket-desk;dashboard-displays-recent-tickets-table",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Dashboard displays recent tickets table",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 460195899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 892579499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466321700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the dashboard should be loaded",
+            "match": {
+              "location": "steps\\stepDefinitions.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6268799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the recent tickets table should be visible",
+            "match": {
+              "location": "steps\\stepDefinitions.js:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5523200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the recent tickets table should display up to 5 tickets",
+            "match": {
+              "location": "steps\\stepDefinitions.js:208"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8741800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85135399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 18
+          },
+          {
+            "name": "@critical",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard---support-ticket-desk;navigate-to-tickets-list-via-view-all-button",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Navigate to tickets list via View All button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 177989099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1770773300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 414430900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the dashboard should be loaded",
+            "match": {
+              "location": "steps\\stepDefinitions.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4633300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click View All button",
+            "match": {
+              "location": "steps\\stepDefinitions.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5559360700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should be on the Tickets page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:222"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4273300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65415099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard---support-ticket-desk",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard - Support Ticket Desk",
+    "tags": [],
+    "uri": "features\\02_dashboard.feature"
+  },
+  {
+    "description": "  As a system\n  I want to enforce role-based access control\n  So that users can only access features permitted to their role",
+    "elements": [
+      {
+        "description": "",
+        "id": "role-based-access-control---support-ticket-desk;admin-can-see-all-features",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Admin can see all features",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 507644099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1116345799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508780499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "steps\\stepDefinitions.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9775000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should be able to navigate to Tickets",
+            "match": {
+              "location": "steps\\stepDefinitions.js:901"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2072997699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should be able to navigate to Customers",
+            "match": {
+              "location": "steps\\stepDefinitions.js:914"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176653099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the Add Customer button should be visible",
+            "match": {
+              "location": "steps\\stepDefinitions.js:837"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6033599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102435999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 9
+          },
+          {
+            "name": "@critical",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "role-based-access-control---support-ticket-desk;agent-can-see-dashboard",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Agent can see dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 190089399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 830654399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I login with \"agent\" username and \"agent123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 435815099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "steps\\stepDefinitions.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4026299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66737400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 41
+          },
+          {
+            "name": "@critical",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "role-based-access-control---support-ticket-desk",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Role-Based Access Control - Support Ticket Desk",
+    "tags": [],
+    "uri": "features\\06_role_based_access.feature"
+  },
+  {
+    "description": "  As a user of the Support Ticket Desk application\n  I want to be able to login and logout securely\n  So that I can access my assigned tickets",
+    "elements": [
+      {
+        "description": "",
+        "id": "authentication---support-ticket-desk;login-with-valid-admin-credentials",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login with valid admin credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 252970499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 854976099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400375700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "steps\\stepDefinitions.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4324899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69485799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 9
+          },
+          {
+            "name": "@critical",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication---support-ticket-desk;login-with-valid-agent-credentials",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login with valid agent credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 213402799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 861390800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login with \"agent\" username and \"agent123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 464919299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "steps\\stepDefinitions.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5630100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76992599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          },
+          {
+            "name": "@critical",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentication---support-ticket-desk;form-validation---empty-fields",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Form validation - empty fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 214239499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 885108599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I try to login without entering credentials",
+            "match": {
+              "location": "steps\\stepDefinitions.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1172083099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I should still see the login form",
+            "match": {
+              "location": "steps\\stepDefinitions.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4689600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69613399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 43
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "authentication---support-ticket-desk",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Authentication - Support Ticket Desk",
+    "tags": [],
+    "uri": "features\\01_authentication.feature"
+  },
+  {
+    "description": "  As a support admin or agent\n  I want to manage tickets efficiently\n  So that I can track and resolve customer issues",
+    "elements": [
+      {
+        "description": "",
+        "id": "ticket-management---support-ticket-desk;admin-can-see-delete-button",
+        "keyword": "Scenario",
+        "line": 113,
+        "name": "Admin can see delete button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 236682100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879325600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 481469100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Tickets page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:264"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1986746400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 114,
+            "name": "delete button should be visible for tickets",
+            "match": {
+              "location": "steps\\stepDefinitions.js:428"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8965900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62924699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 112
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ticket-management---support-ticket-desk;create-a-new-ticket-with-all-required-fields",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Create a new ticket with all required fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 182557200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 785681199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416398600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Tickets page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:264"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1485147700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click Add Ticket button",
+            "match": {
+              "location": "steps\\stepDefinitions.js:275"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2393991999
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Title",
+                      "Email configuration issue"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Description",
+                      "User unable to configure..."
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Priority",
+                      "High"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I create a ticket with:",
+            "match": {
+              "location": "steps\\stepDefinitions.js:291"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500266400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "a success message should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:314"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8167200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55337600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@critical",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ticket-management---support-ticket-desk",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ticket Management - Support Ticket Desk",
+    "tags": [],
+    "uri": "features\\03_ticket_management.feature"
+  },
+  {
+    "description": "  As a support team member\n  I want to view ticket details and manage comments\n  So that I can properly handle customer issues",
+    "elements": [
+      {
+        "description": "",
+        "id": "ticket-details-and-comments---support-ticket-desk;view-ticket-details-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "View ticket details page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 193399199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 795227700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428766400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Tickets page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:264"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1486515299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I view the first ticket",
+            "match": {
+              "location": "steps\\stepDefinitions.js:335"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1100492799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the ticket detail page should be loaded",
+            "match": {
+              "location": "steps\\stepDefinitions.js:454"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7514600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "ticket ID should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:460"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15432300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "ticket title should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:471"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14301099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "ticket description should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:480"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5011796399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "ticket status should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:489"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10920999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "ticket priority should be displayed",
+            "match": {
+              "location": "steps\\stepDefinitions.js:513"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8573499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73837500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@critical",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ticket-details-and-comments---support-ticket-desk;add-comment-to-ticket",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Add comment to ticket",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 191219499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 786160300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410500999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Tickets page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:264"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1504164499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I view the first ticket",
+            "match": {
+              "location": "steps\\stepDefinitions.js:335"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2023757499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I add a comment \"This is a test comment\"",
+            "match": {
+              "location": "steps\\stepDefinitions.js:537"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2620540500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the comment should be added successfully",
+            "match": {
+              "location": "steps\\stepDefinitions.js:545"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8758600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the comment should appear in the comments list",
+            "match": {
+              "location": "steps\\stepDefinitions.js:556"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3725200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 70939600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 21
+          },
+          {
+            "name": "@critical",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ticket-details-and-comments---support-ticket-desk;navigate-back-from-ticket-details",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Navigate back from ticket details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 194756699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "steps\\stepDefinitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 792226299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with \"admin\" username and \"admin123\" password",
+            "match": {
+              "location": "steps\\stepDefinitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 414202399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Tickets page",
+            "match": {
+              "location": "steps\\stepDefinitions.js:264"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1486699000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I view the first ticket",
+            "match": {
+              "location": "steps\\stepDefinitions.js:335"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1959998600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I click back button",
+            "match": {
+              "location": "steps\\stepDefinitions.js:594"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105267299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "I should return to the tickets list",
+            "match": {
+              "location": "steps\\stepDefinitions.js:609"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5696100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76400099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 64
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ticket-details-and-comments---support-ticket-desk",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ticket Details and Comments - Support Ticket Desk",
+    "tags": [],
+    "uri": "features\\04_ticket_details_comments.feature"
+  }
+]

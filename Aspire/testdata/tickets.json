@@ -1,0 +1,68 @@
+{
+  "tickets": {
+    "valid": [
+      {
+        "title": "Email configuration issue",
+        "description": "User unable to configure email settings in account",
+        "priority": "High",
+        "status": "Open"
+      },
+      {
+        "title": "Login not working on mobile",
+        "description": "Mobile users cannot login through the app",
+        "priority": "Critical",
+        "status": "Open"
+      },
+      {
+        "title": "Payment processing slow",
+        "description": "Payment transactions taking longer than expected",
+        "priority": "Medium",
+        "status": "In Progress"
+      },
+      {
+        "title": "Reports not generating",
+        "description": "Report generation feature appears to be broken",
+        "priority": "High",
+        "status": "Open"
+      },
+      {
+        "title": "Database backup failed",
+        "description": "Nightly database backup job failed to complete",
+        "priority": "Critical",
+        "status": "Open"
+      }
+    ],
+    "errorScenarios": [
+      {
+        "title": "FAIL_CREATE error scenario",
+        "description": "This ticket title contains FAIL_CREATE to trigger error",
+        "priority": "Low",
+        "status": "Open"
+      }
+    ],
+    "edits": [
+      {
+        "title": "Updated ticket title",
+        "description": "This is an updated description for testing edit functionality",
+        "priority": "Medium",
+        "status": "In Progress"
+      }
+    ],
+    "comments": [
+      {
+        "text": "This is a test comment on the ticket"
+      },
+      {
+        "text": "Adding more information to help resolve this issue"
+      },
+      {
+        "text": "Issue has been partially resolved, waiting for user confirmation"
+      }
+    ]
+  },
+  "statuses": ["Open", "In Progress", "Resolved", "Closed"],
+  "priorities": ["Low", "Medium", "High", "Critical"],
+  "ticketIds": {
+    "errorDelete": "TKT-001"
+  }
+}

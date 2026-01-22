@@ -1,0 +1,52 @@
+{
+  "users": {
+    "admin": {
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "displayName": "Admin User"
+    },
+    "agent": {
+      "username": "agent",
+      "password": "agent123",
+      "role": "Agent",
+      "displayName": "Agent User"
+    },
+    "invalidUser": {
+      "username": "invaliduser",
+      "password": "wrongpassword",
+      "role": "Invalid",
+      "displayName": "Invalid User"
+    }
+  },
+  "validCredentials": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "username": "agent",
+      "password": "agent123",
+      "role": "Agent"
+    }
+  ],
+  "invalidCredentials": [
+    {
+      "username": "invaliduser",
+      "password": "wrongpassword"
+    },
+    {
+      "username": "admin",
+      "password": "wrongpassword"
+    },
+    {
+      "username": "",
+      "password": ""
+    },
+    {
+      "username": "admin",
+      "password": ""
+    }
+  ]
+}

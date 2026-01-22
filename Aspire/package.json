@@ -1,0 +1,24 @@
+{
+  "name": "aspire",
+  "version": "1.0.0",
+  "description": "Support Ticket Desk E2E Test Suite",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "test:regression": "cucumber-js --tags @regression",
+    "test:critical": "cucumber-js --tags @critical",
+    "test:report": "cucumber-js --format html:reports/cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.10",
+    "dotenv": "^16.3.1",
+    "playwright": "^1.57.0"
+  }
+}

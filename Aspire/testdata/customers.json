@@ -1,0 +1,64 @@
+{
+  "customers": {
+    "valid": [
+      {
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "company": "Acme Corporation",
+        "slaLevel": "Gold",
+        "status": "Active"
+      },
+      {
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@example.com",
+        "company": "Tech Solutions Ltd",
+        "slaLevel": "Silver",
+        "status": "Active"
+      },
+      {
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "company": "Innovation Inc",
+        "slaLevel": "Bronze",
+        "status": "Inactive"
+      },
+      {
+        "name": "Emma Wilson",
+        "email": "emma.wilson@example.com",
+        "company": "Digital Systems",
+        "slaLevel": "Gold",
+        "status": "Active"
+      },
+      {
+        "name": "David Lee",
+        "email": "david.lee@example.com",
+        "company": "Software Solutions",
+        "slaLevel": "Silver",
+        "status": "Active"
+      }
+    ],
+    "errorScenarios": [
+      {
+        "name": "FAIL_CREATE Test Customer",
+        "email": "fail@example.com",
+        "company": "Error Test Company",
+        "slaLevel": "Gold",
+        "status": "Active"
+      }
+    ],
+    "edits": [
+      {
+        "name": "Updated Customer Name",
+        "email": "updated.customer@example.com",
+        "company": "Updated Company",
+        "slaLevel": "Silver",
+        "status": "Active"
+      }
+    ]
+  },
+  "slaLevels": ["Gold", "Silver", "Bronze"],
+  "statuses": ["Active", "Inactive"],
+  "customerIds": {
+    "errorDelete": "CUST-ERROR"
+  }
+}
