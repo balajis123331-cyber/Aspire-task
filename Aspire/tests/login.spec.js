@@ -9,7 +9,7 @@ test.describe('Login Tests', () => {
     await page.goto(TEST_URL);
   });
 
-  test('should display login form elements', async ({ page }) => {
+  test('should display login form element', async ({ page }) => {
     // Verify the login form is visible
     await expect(page).toHaveTitle(/Support Ticket/);
     
